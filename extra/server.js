@@ -7,7 +7,7 @@ function logSuccessfulRequest(request, response, body) {
     response.write('verb: ' + request.method + '\n');
     response.write('headers: ' + JSON.stringify(request.headers) + '\n');
     response.write('body: ' + JSON.stringify(body) + '\n');
-    response.end('done\n');
+    response.end('');
 }
 
 function handleRequest(request, response){

@@ -6,9 +6,15 @@
     "unirest": "0.4.2"
   },
   "description": "curl like a boss",
-  "main": "init.js",
-  "scripts": {
-    "test": "test"
+  "main": "lib/init.js",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.2",
+    "gulp-uglify": "^1.0.2",
+    "gulp-nodemon": "~2.0.3"
+  },
+  "bin": {
+    "cpower": "lib/curl_power.js"
   },
   "keywords": [
     "curl",

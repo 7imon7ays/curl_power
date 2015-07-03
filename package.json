@@ -1,0 +1,20 @@
+{
+  "name": "curl_power",
+  "version": "1.0.0",
+  "dependencies": {
+    "yamljs": "0.2.3",
+    "unirest": "0.4.2"
+  },
+  "description": "curl like a boss",
+  "main": "init.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "curl",
+    "rest",
+    "cli"
+  ],
+  "author": "7imon7ays",
+  "license": "ISC"
+}

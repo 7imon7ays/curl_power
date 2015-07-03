@@ -1,0 +1,7 @@
+host: 'http://localhost:3000'
+path: 'foo'
+verb: 'POST'
+headers:
+  ContentType: 'application/json'
+  Authorization: 'Bearer foobarbaz'
+
